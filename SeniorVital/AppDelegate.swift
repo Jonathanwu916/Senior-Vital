@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SeniorVital
 //
-//  Created by Zijing Wu on 22/10/23.
+//  Created by Zijing Wu on 05/10/23.
 //
 
 import UIKit
