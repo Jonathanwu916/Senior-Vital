@@ -26,3 +26,7 @@ The application follows an MVVM (Model-View-ViewModel) structure for clarity and
 - **ViewController**: Manages and controls the user interface components.
 - **ViewModel**: Handles the application logic, ensuring that the view gets updated as needed based on data changes.
 - **user.json**: A mock database file that supplies user authentication details and key health metrics. This simulates the data you'd typically retrieve from a backend database.
+
+## 📐 Application Design Doc
+
+Please see the file `MockUI.jpg`
