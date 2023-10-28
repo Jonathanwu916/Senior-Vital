@@ -12,7 +12,7 @@ import RxSwift
 class HealthMetricsViewController: UIViewController {
     private var viewModel: HealthMetricsViewModel!
     let disposeBag = DisposeBag()
-
+    
     @IBOutlet weak var stepsCountLabel: UILabel!
     @IBOutlet weak var bloodPressureLabel: UILabel!
     @IBOutlet weak var heartRateLabel: UILabel!
@@ -23,7 +23,7 @@ class HealthMetricsViewController: UIViewController {
         viewModel = HealthMetricsViewModel()
         bindUI()
     }
-
+    
     private func bindUI() {
         viewModel.bloodPressure
             .drive(onNext: { [weak self] text in

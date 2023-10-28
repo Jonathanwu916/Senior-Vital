@@ -10,7 +10,7 @@ import RxSwift
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!

@@ -37,7 +37,7 @@ class LoginViewModel {
                 }
                 
                 return self!.login(userName: pair.userName, password: pair.password)
-        }
+            }
     }
     
     private func login(userName: String, password: String) -> Driver<Bool> {

@@ -18,7 +18,7 @@ class ProfileViewController: UIViewController {
         
         bindUI()
     }
-
+    
     private func bindUI() {
         logoutButton.rx.tap.asDriver()
             .drive(onNext: { [weak self] _ in

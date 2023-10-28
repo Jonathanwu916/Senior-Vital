@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 class DashboardViewController: UIViewController {
-
     @IBOutlet weak var healthMetricsButton: UIButton!
     @IBOutlet weak var profileButton: UIButton!
 }
